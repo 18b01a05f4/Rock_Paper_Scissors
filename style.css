@@ -1,0 +1,29 @@
+.body {
+	background-color: black;
+}
+.container {
+	margin-top: 130px;
+	justify-content: center;
+	display: flex;
+}
+
+.emoji {
+	border:none;
+	outline: none;
+	background: none;
+	font-size: 6rem;
+	justify-content: center;
+	transition: 300ms;
+}
+.emoji:hover {
+	transform: scale(1.2);
+
+}
+.result {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center; 
+	font-size: 50px;
+	grid-template-columns: auto auto;
+}
